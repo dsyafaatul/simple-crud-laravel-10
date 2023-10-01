@@ -38,7 +38,7 @@
                                                 <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-primary">EDIT</a>
                                                 @csrf
                                                 @method('DELETE')
-                                                <button type="submit" class="btns btn-danger">HAPUS</button>
+                                                <button type="submit" class="btn btn-danger">HAPUS</button>
                                             </form>
                                         </td>
                                     </tr>
