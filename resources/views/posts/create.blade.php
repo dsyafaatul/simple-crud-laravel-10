@@ -30,7 +30,7 @@
 
                                 <div class="form-group">
                                     <label class="font-weight-bold">JUDUL</label>
-                                    <input type="text" name="title" class="form-control @error('image') is-invalid @enderror" value="{{ old('title') }}" placeholder="Masukan Judul Post">
+                                    <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" value="{{ old('title') }}" placeholder="Masukan Judul Post">
 
                                     @error('title')
                                         <div class="alert alert-danger mt-2">
@@ -40,7 +40,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="font-weight-bold">KOTEN</label>
+                                    <label class="font-weight-bold">KONTEN</label>
                                     <textarea name="content" class="form-control @error('content') is-invalid @enderror" rows="5" placeholder="Masukan Konten Post">{{ old('content') }}</textarea>
 
                                     @error('content')

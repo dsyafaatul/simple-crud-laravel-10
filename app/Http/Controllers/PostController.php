@@ -41,7 +41,7 @@ class PostController extends Controller
             'content' => $request->content
         ]);
 
-        return redirect()->route('posts.index')->with(['success' => 'Data Berhasil disimpan!']);
+        return redirect()->route('posts.index')->with(['success' => 'Data Berhasil Disimpan!']);
     }
 
     public function show(string $id) : View
